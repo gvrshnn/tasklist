@@ -1,0 +1,121 @@
+body {
+    display: grid;
+    justify-content: center;
+    align-items: start;
+    height: 50vh;
+    margin-top: 15vh;
+}
+
+p {
+    overflow-wrap: anywhere;
+}
+
+#add {
+    font-family: "lucida console";
+    font-size: 20px;
+    margin: 0px 0px 0px 10px;
+    padding: 14px;
+    /* border-radius: 10px; */
+    border-style: hidden;
+}
+
+#add:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+#add:active {
+    background-color: rgb(156, 156, 156);
+    color: rgb(255, 255, 255);
+}
+
+span {
+    justify-self: right;
+}
+
+button {
+    border-style: none; 
+    padding: 5px 15px 5px 15px;
+}
+
+#complete {
+    font-family: "consolas"; 
+    font-size: 20px; 
+    background-color: rgb(188, 255, 111); 
+    color: rgb(23, 97, 0);
+}
+
+#complete:hover {
+    background-color: rgb(72, 209, 30);
+    color: rgb(255, 255, 255);
+}
+
+#complete:active {
+    background-color: rgb(29, 122, 0);
+    color: rgb(255, 255, 255);
+}
+
+#delete {
+    font-family: "consolas"; 
+    font-size: 20px; 
+    background-color: rgb(255, 126, 190); 
+    color: rgb(129, 1, 54);
+} 
+
+#delete:hover {
+    background-color: rgb(201, 0, 84); 
+    color: rgb(255, 255, 255);
+}
+
+#delete:active {
+    background-color: rgb(117, 1, 49); 
+    color: rgb(255, 255, 255);
+}
+
+.input_list {
+    background-color: black; 
+    /* border-radius: 30px; */
+}
+
+.input_add {
+    margin: 25px;
+    padding: 0px;
+    display: grid; 
+    grid-template-columns: 3fr 2fr;
+}
+
+#input {
+    padding-bottom: 0px;
+    border-style: hidden;
+    /* border-radius: 10px; */
+    font-size: 20px;
+    padding: 10px;
+    font-family: "consolas";
+    outline: none;
+}
+
+ol {
+    padding-inline-start: 0px;
+    font-family: 'consolas';
+    font-size: 20px;
+}
+
+li {
+    display: grid; 
+    grid-template-columns: 200px 200px;
+    align-items: center;
+    background-color: rgb(206, 206, 206);
+    margin: 15px 25px 15px 25px;
+    padding: 5px 25px 5px 25px;
+    /* border-radius: 10px; */
+}
+
+/* 
+1   шрифт покрупнее пожирнее
+
+2   кнопки квадратные с галочкой и крестиком
+
+3   кнопки при наведении и при нажатии
+    строка с текстом тоже меняется
+
+4   макет пошире для длинных запросов   
+*/
