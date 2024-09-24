@@ -1,2 +1,1 @@
-# tasklist
-[simple tasklist](https://gvrshnn.github.io/tasklist/)
+Список задач с возможностью отметки о выполнении или удаления задачи.
